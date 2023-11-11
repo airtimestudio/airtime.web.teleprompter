@@ -1,0 +1,50 @@
+{
+  "name": "imaginary-teleprompter",
+  "email": "support@imaginary.tech",
+  "homepage": "https://imaginary.tech/teleprompter/",
+  "description": "The most complete and professional free software teleprompter application.",
+  "license": "GPL-3.0+",
+  "version": "2.4.0",
+  "keywords": [
+    "teleprompter",
+    "television",
+    "news",
+    "multiplatform",
+    "portable",
+    "software",
+    "local",
+    "online",
+    "imaginary sense",
+    "imaginary films",
+    "imaginary"
+  ],
+  "author": "Imaginary Sense Inc. <support@imaginary.tech> (https://imaginary.tech)",
+  "contributors": [
+    "Javier O. Cordero-Pérez <javier@imaginary.tech> (https://javiercordero.info)",
+    "Victor A. Ortiz-Alvarado <va2ron1@gmail.com> (https://twitter.com/Va2ron1)",
+    "Rafael J. Sierra-Soto <rafael.sierra2@upr.edu> (https://www.facebook.com/rafael.jose.7737)",
+    "Keyvan Pérez Pérez <keyvan.perez2@gmail.com> (https://github.com/keyvanp)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImaginarySense/Imaginary-Teleprompter"
+  },
+  "bugs": {
+    "url": "https://github.com/ImaginarySense/Imaginary-Teleprompter/issues"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "dev": "NODE_ENV=development electron main.js"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "deb-version-compare": "git+https://github.com/sdumetz/node-deb-version-compare.git",
+    "electron-squirrel-startup": "1.0.0",
+    "shelljs": "0.8.1"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0-beta.4"
+  },
+  "engine": "node >= 8.2.1",
+  "preferGlobal": "false"
+}

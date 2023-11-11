@@ -1,0 +1,122 @@
+
+/* airtime */
+@font-face {
+    font-family: 'Brown';
+    src: url('../fonts/Brown-Light.woff') format('woff'),
+	url('../fonts/') format('woff2');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('../fonts/Brown-Bold.woff') format('woff'),
+	url('../fonts/Brown-Bold.woff2') format('woff2');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+body {
+    font-family: 'Brown', sans-serif !important;
+}
+
+
+#toolbar .cke_bottom, .cke_top {
+	padding:8px !important;
+	background:#464646 !important;
+}
+#toolbar .cke_chrome {
+	border: none;
+	padding: 0;
+}
+.bs-docs-header, .bs-docs-masthead {
+	background: #404040;
+}
+.slider-tick-container .slider-tick.round:first-child,
+.slider-tick-container .slider-tick.round:last-child {
+    display: none;
+}
+.slider-tick.in-selection {
+	background-image: linear-gradient(to bottom,#cecece 0,#cecece 100%) !important;
+}
+.slider-selection.tick-slider-selection {
+	background-image: linear-gradient(to bottom,#cecece 0,#cecece 100%) !important;
+}
+.slider.slider-horizontal .slider-track {
+	height: 6px;
+	margin-top: -3px;
+}
+.slider-tick {
+    width: 16px;
+  height: 16px;
+  margin-top: 2px;
+}
+
+.cke_path_empty, .cke_path_item {
+	color: #e3e3e3 !important;
+}
+.cke_chrome {
+    background-color: #404040;
+}
+.bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a {
+	color: #305ad9;
+}
+
+#footer {
+    /* Positioning at the bottom */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: -500px; /* Adjust based on your footer's height */
+
+    /* Transition for smooth sliding effect */
+    transition: bottom 0.3s;
+	cursor: pointer;
+	background-color: #333333;
+	background-image: linear-gradient(45deg, #333 0%, #333 100%);
+}
+
+#footer.slide-up {
+    bottom: 0;
+}
+
+#promptcontainer {
+	min-height: 90vh !important;
+}
+
+.nav a {
+	text-align: center;
+}
+
+/* .cke_bottom,
+.cke_top {
+  padding:8px;
+  background:#373737;
+} */
+.airtime-about-container {
+    position: relative;
+}
+.airtime-about {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    color: rgb(149, 149, 149);
+    font-size: 15px;
+    cursor: pointer;
+}
+footer .container {
+    position: relative;
+}
+#airtime-about-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bs-docs-header label {
+    font-size: 1.6rem;
+}
